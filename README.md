@@ -164,3 +164,12 @@ São responsáveis pelas implementações concretas, sejam utilizados em memóri
 ## Baixo nível = é o que está mais perto do usuário
 
 ## Contrato = Interface de uma classe (diz quais metodos ela tem)
+
+## A responsabilidade de um arquivo de rota
+### É ele receber uma requisição e repassar sem precisar chamando nada.
+
+## UseCases
+### São as operações que estamos fazendo (regra de negócio da aplicação).
+
+# Singleton Pattern
+### Deve existir apenas uma instancia de uma classe que deve ser global
