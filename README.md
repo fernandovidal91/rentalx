@@ -173,3 +173,21 @@ São responsáveis pelas implementações concretas, sejam utilizados em memóri
 
 # Singleton Pattern
 ### Deve existir apenas uma instancia de uma classe que deve ser global
+
+# Create Migration
+
+```
+yarn typeorm migration:create -n migrationName
+```
+
+# Rodar uma migration
+
+```
+yarn typeorm migration:run
+```
+
+# Reverter uma migration
+
+```
+yarn typeorm migration:revert
+```
