@@ -3,10 +3,10 @@ import express, { NextFunction, Request, Response } from 'express';
 import 'express-async-errors';
 
 import { router } from './routes';
-import { AppError } from './errors/AppError';
+import { AppError } from '../../errors/AppError';
 
-import './database';
-import './shared/container';
+import '../typeorm';
+import '../../container';
 
 const app = express();
 
